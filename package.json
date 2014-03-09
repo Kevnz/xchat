@@ -6,7 +6,7 @@
   "scripts": {
     "test": "node_modules/.bin/mocha tests/**.js",
     "gulp": "node_modules/.bin/gulp",
-    "jshing": "node_modules/.bin/gulp jshint",
+    "jshint": "node_modules/.bin/gulp jshint",
     "mocha": "node_modules/.bin/gulp mocha"
   },
   "author": "Kevin Isom <kevin.isom@gmail.com>",
