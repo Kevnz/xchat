@@ -1,0 +1,26 @@
+{
+  "name": "chatty-chat",
+  "version": "0.0.1",
+  "description": "Tool to chat with xmpp servers",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/mocha tests/**.js",
+    "gulp": "node_modules/.bin/gulp",
+    "jshing": "node_modules/.bin/gulp jshint",
+    "mocha": "node_modules/.bin/gulp mocha"
+  },
+  "author": "Kevin Isom <kevin.isom@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "simple-xmpp": "~0.1.18",
+    "node-stringprep": "~0.2.3",
+    "qconf": "~2.2.0"
+  },
+  "devDependencies": {
+    "mocha": "~1.17.1",
+    "gulp": "~3.5.5",
+    "gulp-jshint": "~1.5.0",
+    "gulp-mocha": "~0.4.1",
+    "chai": "~1.9.0"
+  }
+}
