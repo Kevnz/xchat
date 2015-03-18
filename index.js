@@ -12,7 +12,7 @@ var rl = readline.createInterface({
 
 var parse = require('./lib/parse');
 
-
+ 
 
 xmpp.on('chat', function(from, message) {
 	console.log('from:' + from);
