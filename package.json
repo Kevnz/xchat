@@ -12,9 +12,11 @@
   "author": "Kevin Isom <kevin.isom@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "simple-xmpp": "~0.1.18",
+    "commander": "^2.7.1",
+    "configstore": "^0.3.2",
     "node-stringprep": "~0.2.3",
-    "qconf": "~2.2.0"
+    "qconf": "~2.2.0",
+    "simple-xmpp": "~0.1.18"
   },
   "devDependencies": {
     "mocha": "~1.17.1",
